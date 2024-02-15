@@ -1,0 +1,452 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+.nav {
+    height: 70px;
+    display: flex;
+    column-gap: 260px;
+    justify-content: center;
+    background-image: linear-gradient(265deg, #172764, #121111);
+    align-items: center;
+    border-bottom: 2px solid white;
+}
+
+.nav .logo h1 {
+    color: white;
+}
+
+.nav .item {
+    display: flex;
+    column-gap: 20px;
+}
+
+.nav .item a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.nav .btn input {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: rgba(255, 68, 0, 0.863);
+}
+
+.home {
+    height: 680px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(265deg, #172764, #121111);
+}
+
+.home .main-sec .box .btn input {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: rgba(255, 68, 0, 0.863);
+}
+
+.home .main-sec {
+    display: flex;
+    column-gap: 100px;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .main-sec .box {
+    /* background: red; */
+    padding: 30px;
+    width: 733px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+}
+
+.home .main-sec .box .img {
+    display: flex;
+    column-gap: 20px;
+    cursor: pointer;
+}
+
+.home .main-sec .box .img img {
+    width: 30vw;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid white;
+    transition: 0.4s ease;
+}
+
+.home .main-sec .box .img img:hover {
+    transform: rotate(3deg);
+}
+
+.home .main-sec .box p {
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+}
+
+.home .main-sec .box2 img {
+    cursor: pointer;
+    height: 44vw;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: 0.4s ease;
+}
+
+.home .main-sec .box2 img:hover {
+    transform: rotate(3deg);
+}
+
+
+.hero-sec {
+    height: 600px;
+    background-image: linear-gradient(265deg, #070d26, #040d10);
+    padding: 30px;
+}
+
+.hero-sec .main-sec {
+    display: flex;
+    column-gap: 100px;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-sec .main-sec .left img {
+    width: 574px;
+    border-radius: 10px;
+    height: 567px;
+    border: 2px solid white;
+}
+
+.hero-sec .main-sec .right {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.hero-sec .main-sec .right .lorem {
+    color: white;
+}
+
+.hero-sec .main-sec .right .head {
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+}
+
+.hero-sec .main-sec .right .about {
+    color: white;
+}
+
+.hero-sec .main-sec .right .btn input {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: rgba(255, 68, 0, 0.863);
+}
+
+.service-sec {
+    height: 500px;
+    background-image: linear-gradient(265deg, #172764, #121111);
+    padding: 30px 56px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-sec .txt {
+    width: 600px;
+    text-align: center;
+}
+
+.service-sec .txt p {
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.service-sec .main-sec {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.service-sec .main-sec .box {
+    background-image: linear-gradient(265deg, #27282c, #262424);
+    padding: 20px;
+    width: 255px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+
+.service-sec .main-sec .box i {
+    font-size: 58px;
+    color: white;
+}
+
+.service-sec .main-sec .box .disc {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.service-sec .main-sec .box .disc .txt1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(255, 68, 0, 0.863);
+}
+
+.service-sec .main-sec .box .disc .txt2 {
+    text-align: center;
+    color: white;
+}
+
+.service-sec .main-sec .box .btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 68, 0, 0.863);
+    cursor: pointer;
+    column-gap: 10px;
+}
+
+.service-sec .main-sec .box .btn i{
+    font-size: 20px;
+    color: black;
+}
+
+.team-sec {
+    height: 690px;
+    background-image: linear-gradient(265deg, #070d26, #040d10);
+    padding: 30px 56px;
+    /* justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-sec .txt {
+    width: 600px;
+    text-align: center;
+}
+
+.team-sec .txt p {
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.team-sec .main-sec {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.team-sec .main-sec .box{
+    width: 255px;
+    overflow: hidden;
+    height: 478px;
+    padding: 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(265deg, #27282c, #262424);
+}
+
+.team-sec .main-sec .box img{
+    width: 255px;
+    height: 390px;
+}
+
+.team-sec .main-sec .box .name-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    row-gap: 10px;
+    color: white;
+}
+
+.team-sec .main-sec .box .name-sec .name{
+    color: rgba(255, 68, 0, 0.863);
+}
+
+.team-sec .main-sec .box .social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    padding-top: 10px;
+}
+
+.team-sec .main-sec .box .social i{
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+.cnt-sec {
+    height: 330px;
+    background-image: linear-gradient(265deg, #172764, #121111);
+    padding: 30px 56px;
+    /* justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cnt-sec .txt {
+    /* width: 600px; */
+    text-align: center;
+}
+
+.cnt-sec .txt p {
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.cnt-sec .main-sec {
+    display: flex;
+    column-gap: 45px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.cnt-sec .main-sec .box{
+    /* background-image: linear-gradient(265deg, #27282c, #262424); */
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 340px;
+    height: 175px;
+    justify-content: center;
+}
+
+.cnt-sec .main-sec .box .email{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.cnt-sec .main-sec .box .email p{
+    text-decoration: underline;
+}
+
+.cnt-sec .main-sec .box i{
+    font-size: 30px;
+}
+
+.cnt-sec .main-sec .box .btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 68, 0, 0.863);
+    cursor: pointer;
+    column-gap: 10px;
+    width: fit-content;
+}
+
+.cnt-sec .main-sec .box .btn i{
+    font-size: 20px;
+    color: black;
+}
+
+
+.cnt-sec .main-sec .box2{
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 340px;
+    height: 175px;
+    color: white;
+    justify-content: center;
+    border: 2px solid white;
+}
+
+.cnt-sec .main-sec .box2 .email{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.cnt-sec .main-sec .box2.email p{
+    text-decoration: underline;
+}
+
+.cnt-sec .main-sec .box2 i{
+    font-size: 30px;
+}
+
+.cnt-sec .main-sec .box2 .btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 68, 0, 0.863);
+    cursor: pointer;
+    column-gap: 10px;
+    width: fit-content;
+    color: black;
+}
+
+.cnt-sec .main-sec .box2 .btn i{
+    font-size: 20px;
+    color: black;
+}
+
+.foot-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    column-gap: 296px;
+}
+
+.foot-sec .social{
+    display: flex;
+    column-gap: 25px;
+}
+
+.foot-sec .social i{
+    font-size: 20px;
+    cursor: pointer;
+}
